@@ -18,6 +18,13 @@ public class Student {
         this.activities = activities;
     }
 
+    public Student() {
+
+    }
+
+    public Student(String name) {
+        this.name = name;
+    }
     public String getGender() {
         return gender;
     }
@@ -60,6 +67,10 @@ public class Student {
         this.activities = activities;
     }
 
+    public void printActivities()
+    {
+        System.out.println(activities);
+    }
     @Override
     public String toString() {
         return "Student{" +
