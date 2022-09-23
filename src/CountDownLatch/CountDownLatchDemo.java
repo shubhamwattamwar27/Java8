@@ -6,6 +6,8 @@ public class CountDownLatchDemo {
 
     public static void main(String[] args) throws InterruptedException {
 
+        //create CountDownLatch that is going to
+        // wait for no. of threads we passed before it starts
         CountDownLatch latch = new CountDownLatch(4);
 
         Worker worker1 = new Worker(1000,latch,"worker1");
