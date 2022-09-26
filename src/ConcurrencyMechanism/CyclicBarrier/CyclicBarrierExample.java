@@ -10,6 +10,9 @@ public class CyclicBarrierExample implements Runnable {
 
     public static void main(String[] args)
     {
+        int a = 10;
+        Integer abc = new Integer(10);
+        System.out.println((a==abc) + "  == "+ (a+abc));
         // parent thread
         CyclicBarrierExample test = new CyclicBarrierExample();
 
