@@ -36,5 +36,20 @@ public class NumericStreamBoxingUnboxingExample {
         System.out.println("mapToObject= "+mapToObject());
     }
 
+    public int returnInt()
+    {
+        try{
+        return 1;
+       // System.out.println("retutnInt");
+        }
+        catch(Exception e)
+        {
+        }
+        finally {
+            System.out.println();
+    }
+        return 1;
+    }
+
 
 }
